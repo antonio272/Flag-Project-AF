@@ -7,6 +7,7 @@ $url_parts = explode("/", $_SERVER["REQUEST_URI"]);
 
 
 $controllers = [
+    "booking",
     "home"
     
 ];
@@ -22,6 +23,10 @@ if( !empty($url_parts[1]) ) {
     }
     
     $controller = $url_parts[1];
+}
+
+if( isset($url_parts[2]) ) {
+    $action = $url_parts[2];
 }
 
 
