@@ -1,15 +1,10 @@
 <?php
 session_start();
 
-$controllers = [
-    "",
-    "",
-    "",
-    "",
-    
-];
+define("BASE_PATH", dirname($_SERVER["SCRIPT_NAME"]) . "/" );
 
-echo '<p>project flag</p>'; 
+$url_parts = explode("/", $_SERVER["REQUEST_URI"]);
 
-
-?>
+echo "<pre>";
+print_r($url_parts);
+exit;
