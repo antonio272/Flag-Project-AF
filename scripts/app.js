@@ -13,7 +13,7 @@ function mostraFormPost() {
     }
 }
 
-/*Dropdowns form booking process*/
+/*Form Dropdowns :: booking process*/
 document.addEventListener("DOMContentLoaded", async () => {
                 
     const Form = document.getElementById("Form");
