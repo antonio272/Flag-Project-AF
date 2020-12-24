@@ -21,6 +21,5 @@ $modelSpecialties = new Specialties;
 
 $specialties = $modelSpecialties->get();
 
-require("view/specialties.php");
+require("view/home.php");
 }
- 
