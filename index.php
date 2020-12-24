@@ -9,6 +9,7 @@ $url_parts = explode("/", $_SERVER["REQUEST_URI"]);
 
 $controllers = [
     "booking",
+    "requests",
     "home"
     
 ];

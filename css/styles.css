@@ -1,0 +1,813 @@
+html,
+
+body {
+    font-family: 'Open Sans', sans-serif;/*<-----------------------------------------diferente do prefooter e footer-------------*/
+    background-size: 100%;
+    height: auto;
+}
+
+header {
+    background-size: 100%;
+    background-color: #c2deff;
+    height: auto;
+    
+}
+
+header .img-fluid {
+    width: 80px;
+    height: 80px;
+     
+}
+
+header .logo-text {
+    font-family: 'Candal', serif;/*<-----------------------------------------diferente do prefooter e footer-------------*/
+    color: #818991;
+    
+}
+
+header .logo-text span {
+    color: rgb(174, 174, 206);
+
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 30px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li:last-child a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #1b619b;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border-color: #FFFFFF;
+    letter-spacing: 1px;
+    transition: transform .2s;
+}
+
+nav ul li:last-child a:hover {
+    color: #3b9488;
+    background: #FFFFFF;
+    text-decoration: none;
+    border-color: #3b9488;
+    transform: scale(1.1);
+}
+
+nav ul li a {
+    display: block;
+    color: #818991;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+/*------  CONTENT ------*/
+
+/* Post Slider */
+.post-slider {
+    position: relative;
+    
+}
+
+.post-slider .one-time {
+    width: 85%;
+    height: auto;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+
+
+/*----------------------------------------------------------------*/
+.images {
+
+    filter: brightness(0%);/*<------------------------------------------------------------------teste---------------------*/
+
+}
+/*----------------------------------------------------------------*/
+
+.post-slider .one-time .post {
+    background: url("../images/img.jpeg") center center no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    margin: 0px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    
+}   
+.post-slider .one-time .post2 {
+    background: url("../images/img2.jpeg") center center no-repeat;
+    background-size: cover;
+    height: 750px; 
+    width: 100%;
+    margin: 0px 10px;
+    display: inline-block;
+    border-radius: 5px; 
+    
+}   
+.post-slider .one-time .post3 {
+    background: url("../images/img3.jpeg") center center no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    margin: 0px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    
+}   
+.post-slider .one-time .post-info {
+    font-size: 36px;
+    text-shadow: 6px 6px 15px black;
+    text-align: center;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;/*<-----------------------------------------diferente do prefooter e footer-------------*/
+    font-weight: 600;
+    color: #fcfcfc;
+    padding-top: 15%;
+    filter: brightness(200%);
+    
+}   
+
+/* Slick dots */
+.slick-dots {
+    position: absolute;
+    width: 85%;
+    margin: 0;
+    padding: 16px 0;
+    bottom: 40px;
+    text-align: center;
+    z-index: 10;
+    
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+    border-radius: 75%;
+    display: inline-block;
+    list-style: none;
+       
+}
+
+.slick-dots button {
+    display: block;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    border-radius: 75%;
+    background-color: rgb(218, 214, 218);
+    color: transparent;
+    border: 3px solid #6da9cc;
+   
+}
+
+.slick-dots button:hover {
+    border-color: #1c35c5;
+     
+}
+
+.slick-dots li.slick-active button {
+    background-color: #6da9cc;
+    
+}
+
+.slick-dots li.slick-active button:hover {
+    background-color: #1c35c5;
+   
+}
+
+/* End Slick dots */
+
+/* End Post Slider */
+
+#hero h1 {
+    color: #4f546e;
+    font-size: 4vw;
+    font-family: 'Work Sans', sans-serif;/*<-----------------------------------------diferente do prefooter e footer-------------*/
+}
+
+.content p {
+    color: #888888;
+    font-family: 'Work Sans', sans-serif;/*<-----------------------------------------diferente do prefooter e footer-------------*/
+}
+
+.btn-pink {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #3b9488;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border-color: #FFFFFF;
+    transition: all .2s;
+    letter-spacing: 1px;
+}
+
+.btn-pink:hover {
+    color: #3b9488;
+    background: #FFFFFF;
+    text-decoration: none;
+    border-color: #3b9488;
+}
+/*dropdowns booking*/
+
+#Form {
+    text-align: center;
+}
+
+#doctor {
+    margin: 0px 20px;
+}
+
+#datehour {
+    margin-right: 10px;
+}
+
+
+/*end dropdowns booking*/
+
+/*------  CONTENT ------*/
+
+#formulario {
+    background: rgb(250,250,250);
+    border: 1px solid rgb(255,255,255);
+    font-family: 'Work Sans', sans-serif;
+    height: auto;
+    color: #888888;
+    
+}
+
+#formulario h2 {
+    color: #4f546e;
+    font-size: 2vw;
+    
+}
+/*-----teste-------ALTERAR*/
+#formulario select {
+    color: #888888;
+    border: 1px solid  #888888;
+    
+}
+
+#formulario input {
+    color: #888888;
+    border: 1px solid #888888;;
+    
+    
+}
+
+/*formulario login*/
+#formulariologin {
+    background: rgb(250,250,250);
+    border: 1px solid rgb(255,255,255);
+    font-family: 'Work Sans', sans-serif;/*<-----------------------------------------diferente do prefooter e footer-------------*/
+    height: 885px;
+    color: #888888;
+    
+}
+
+#formulariologin h2 {
+    color: #4f546e;
+    font-size: 2vw;
+    
+}
+
+#formulariologin input {
+    color: #888888;
+    border: 3px solid #888888;
+     
+}
+
+#formulariologin .wrap {
+    margin: auto;
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #bbbaba;
+    border-radius: 5px;
+    
+}
+#formulariologin .wrap input {
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid #bbbaba;
+    width: inherit;
+    
+}
+#formulariologin .wrap label {
+    width: 90%;
+    
+}
+
+#formulariologin .wrap input[type=radio]{
+    width: 10%;
+    margin-top: 15px;
+    
+}
+
+#formulariologin .wrap button {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #3b9488;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border-color: #FFFFFF;
+    transition: all .2s;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+#formulariologin .wrap button:hover {
+    color: #3b9488;
+    background: #FFFFFF;
+    text-decoration: none;
+    border-color: #3b9488;
+}
+
+
+/*-----FIM teste-------ALTERAR*/
+/*-----FIM formulariologin*/
+/*-----FIM formulario*/
+/*formulario login*/
+#formularioregister {
+    background: rgb(250,250,250);
+    border: 1px solid rgb(255,255,255);
+    font-family: 'Work Sans', sans-serif;/*<-----------------------------------------diferente do prefooter e footer-------------*/
+    height: auto;
+    color: #888888;
+    
+}
+
+#formularioregister h2 {
+    color: #4f546e;
+    font-size: 2vw;
+    
+}
+
+#formularioregister input {
+    color: #888888;
+    border: 3px solid #888888;
+     
+}
+
+#formularioregister .wrap {
+    margin: auto;
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #bbbaba;
+    border-radius: 5px;
+    
+}
+#formularioregister .wrap input {
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid #bbbaba;
+    width: inherit;
+    
+}
+#formularioregister .wrap label {
+    width: 90%;
+    
+}
+
+#formularioregister .wrap input[type=radio]{
+    width: 10%;
+    margin-top: 15px;
+    
+}
+
+#formularioregister .wrap button {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #3b9488;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border-color: #FFFFFF;
+    transition: all .2s;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+#formularioregister .wrap button:hover {
+    color: #3b9488;
+    background: #FFFFFF;
+    text-decoration: none;
+    border-color: #3b9488;
+}
+
+
+/*-----FIM teste-------ALTERAR*/
+/*-----FIM formularioregister*/
+/*-----FIM formulario*/
+
+#aboutus {
+    background: rgb(250,250,250);
+    border: 1px solid rgb(255,255,255);
+    font-family: 'Work Sans', sans-serif;/*<-----------------------------------------diferente do prefooter e footer-------------*/
+    height: auto;
+    color: #888888;
+    
+}
+
+#aboutus .h1 {
+    margin-left: 700px;
+}
+
+#aboutus .about {
+    margin: auto;
+    padding: 0px 70px;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+#aboutus .about h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #1b619b;
+}
+
+#prefooter {
+    padding: 75px 0;
+    background: #111111;
+    color: #989898;
+    font-size: 12px;/*<-----------------------------------------confirmar font-family-------------*/
+    
+}
+
+#prefooter h3 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#prefooter a {
+    color: #989898;
+}
+
+#prefooter a i {
+    margin-right: 10px;
+}
+
+footer {
+    padding: 20px 0;
+    background: rgb(0, 0, 0);
+    color: #989898;
+    font-size: 12px;/*<-----------------------------------------confirmar font-family-------------*/
+}
+
+footer .btn-circle {
+    width: 35px;
+    height: 35px;
+    line-height: 32px;
+    background: black;
+    color: #989898;
+    display: inline-block;
+    border-radius: 35px;
+    text-align: center;
+    transition: all .2s;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+footer .btn-circle:last-child {
+    margin: 0
+}
+
+footer .btn-circle:hover {
+    color: white;
+    background: #3b9488;
+    border: 2px solid #3b9488;
+}
+
+/*** appointment page **/
+
+#appointment {
+    background: rgb(250,250,250);
+    border: 1px solid rgb(255,255,255);
+    font-family: 'Work Sans', sans-serif;/*<-----------------------------------------diferente do prefooter e footer-------------*/
+    height: 885px;
+    color: #888888;
+    
+}
+
+#appointment h2 {
+    color: #4f546e;
+    font-size: 2vw;
+    
+}
+
+#appointment table, tr, td, th { 
+    margin: 50px auto;
+    border: 2px solid #888888;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+
+/*--------------------------------------------------*/
+#Doctorspage {
+    background: rgb(250,250,250);
+    border: 1px solid rgb(255,255,255);
+    font-family: 'Work Sans', sans-serif;
+    height: 885px;
+    color: #888888;
+    
+}
+
+#Doctorspage h2 {
+    color: #4f546e;
+    font-size: 2vw;
+    
+}
+
+#Doctorspage ul {
+    margin-top: 20px;
+}
+
+#Doctorspage ul li {
+    list-style: none;
+    background-color: rgb(243, 242, 242);
+    padding: 10px 100px;
+    margin: 10px;
+    border: 1px solid rgb(245,245,245);
+    border-radius: 10px;
+    
+}
+
+#Doctorspage a {
+    color: #888888;
+    
+}
+
+#Doctorspage a:hover {
+    color: #888888;
+    transition: transform 1.1s;
+    transform: scale(1.1);
+}
+
+
+/***doctors info page teste  <---------------------------------------------------------------------------------*/
+
+#list h1 {
+    text-align: center;
+    color: #888888;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#list h2 {
+    color: #1b619b;
+}
+
+#list ul{
+    padding-left: 0px;
+}
+
+#list ul li{
+    list-style: none;
+    padding-left: 0px;
+    
+}
+
+#list hr {
+    color: black;
+    width: 100%;
+}
+
+/*queries*--------------------------------------------------------------------------*/
+
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 10vw;
+    }
+    
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+
+/* [LG] Laptop */
+@media (max-width: 1199.98px) {}
+
+/* [MD] Tablet */
+@media (max-width: 991.98px) {
+    
+    nav ul li {
+        margin-right: 15px;
+    }
+
+    .post-slider .one-time .post .img-fluid {
+        width: 100%;
+        height: 450px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+
+    
+}
+
+/* [SM] Phone Landscape */
+@media (max-width: 767.98px) {
+    header {
+       line-height: 1;
+      
+       
+    }
+
+    header .img-fluid {
+        width: 50px;
+        height: 50px;
+        /*border: 2px solid rgb(233, 11, 59);*/
+        
+         
+    }
+
+    header .logo-text {
+        font-size: 1.5em;
+        
+    }
+    
+    header .logo-text span {
+        color: rgb(174, 174, 206);
+    
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+        
+        
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #818991;
+        font-size: 16px;
+    }
+
+
+/*------------------------------------------teste-----------------*/
+
+    nav ul li:last-child a {
+        display: inline-block;
+        text-transform: none;
+        font-size: 16px;
+        color: #818991;
+        background: none;
+        padding: 0;
+        border-radius: none;
+        border-color: none;
+        letter-spacing: none;
+        transition: none;
+        margin: 0;
+    }
+
+    nav ul li:last-child a:hover {
+        background: none;
+        border-radius: none;
+        border-color: none;
+        transform: scale(1.1);
+        color: #333333;
+        text-decoration: none;
+    }
+    
+    
+/*------------------------------------------teste-----------------*/
+    header {
+        padding: 10px 0;
+    }
+    
+    .post-slider .one-time .post {
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+    .post-slider .one-time .post2 {
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+       
+    }
+    .post-slider .one-time .post3 {
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+
+    .post-slider .one-time .post-info {
+        font-size: 26px;
+        
+    }   
+
+        /* Slick dots */
+    .slick-dots {
+        padding: 8px 0;
+        bottom: 5px;
+        
+    }
+
+    .slick-dots button {
+        width: 15px;
+        height: 15px;
+        
+    }
+    /* End Slick dots */
+
+    /*Formulario*/
+    h1, h2 {
+        font-size: 6vw;
+
+    }
+    
+    #hero h1 {
+        font-weight: bold;
+
+    }
+
+    #formulario h2 {
+        font-size: 4vw;
+        font-weight: bold;
+        
+    }
+
+    #aboutus .about {
+        padding: 0;
+        
+    }
+
+    #doctor {
+        margin: 10px auto;
+    }
+
+   
+}
+
+/* [XS] Phone Portrait */
+@media (max-width: 575.98px) {
+
+    .post-slider .one-time .post {
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+    .post-slider .one-time .post2 {
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+    .post-slider .one-time .post3 {
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+}
