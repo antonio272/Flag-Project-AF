@@ -36,7 +36,7 @@
                         <nav class="text-center text-md-right mt-md-4">
                             <ul>
 <?php
-    //nav;
+    include("menu.php");
 ?>
                                 
                             </ul>
