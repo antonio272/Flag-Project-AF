@@ -8,14 +8,16 @@ $url_parts = explode("/", $_SERVER["REQUEST_URI"]);
 
 
 $controllers = [
+    "home",
     "booking",
     "requests",
-    "home"
+    "appointment",
+    "confirmation"
     
 ];
 
 /* default */
-$controller = "home";
+$controller = "booking";
 
 if( !empty($url_parts[1]) ) {
 

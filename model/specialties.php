@@ -18,8 +18,6 @@ class Specialties extends Base
 
     }
 
-    
-
     public function getSpecialty($specialty_id) {
 
         $query = $this->db->prepare("
