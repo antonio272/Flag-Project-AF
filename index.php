@@ -14,7 +14,8 @@ $controllers = [
     "appointment",
     "confirmation",
     "access",
-    "doctors"
+    "doctors",
+    "about"
     
 ];
 
