@@ -13,7 +13,8 @@ $controllers = [
     "requests",
     "appointment",
     "confirmation",
-    "access"
+    "access",
+    "doctors"
     
 ];
 
