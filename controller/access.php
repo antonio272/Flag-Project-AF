@@ -23,17 +23,26 @@ if( isset($_POST["send"]) ) {
 
     if($action === "register") {
 
-        $result = $modelPatients->create( $_POST );
+        if($_POST["captcha"] === $_SESSION["captcha"]) {
 
-        if($result) {
+            $result = $modelPatients->create( $_POST );
 
-            header("Location: " .BASE_PATH. "access/login");
-
-            
+            if($result) {
+    
+                header("Location: " .BASE_PATH. "access/login");
+    
+                
+            }
+            else {
+                $message = "Fill in all fields correctly";
+            }
         }
+        
         else {
-            $message = "Fill in all fields correctly";
+            $message = "Error: Captcha submit";
         }
+        
+       
     }
     elseif($action === "login") {
 

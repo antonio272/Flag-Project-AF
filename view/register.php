@@ -126,13 +126,19 @@
                                         <input type="radio" id="female" name="gender" value="Female" required>Female
                                     </label>   
                                 </div>
+
+                                <div>
+                                <img src="/controller/captcha.php" alt="">
+                                </div>
+
+                                <div>
+                                <input type="text" name="captcha" placeholder="Type de text" required autofocus>
+                                </div>
                                 
                                 <div>
                                     <button type="submit" name="send">Register</button>
                                 </div>
-                                <!-- <div>
-                                <a href="captcha1.php">Finalize registration</a>.
-                                </div> -->
+                                
                             </form>
                         </div>
                             <!-- até aqui -->

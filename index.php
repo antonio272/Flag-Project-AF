@@ -15,6 +15,8 @@ $controllers = [
     "confirmation",
     "access",
     "doctors",
+    "specialties",
+    "captcha",
     "about"
     
 ];
