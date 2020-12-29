@@ -41,11 +41,14 @@ if( isset($_GET["request"]) ) {
 
         foreach($already_scheduled as $value) {
 
-            if($key  = array_search($value["datehour"],array_column($clone_possible_dates, 'id'))) {
+            $key = array_search($value["datehour"],array_column($clone_possible_dates, 'id'));
+
+            if($key !== FALSE) {
             
                 unset($possible_dates[$key]);
         
             }
+            
         }
         
         echo json_encode(array_values($possible_dates));

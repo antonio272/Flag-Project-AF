@@ -23,19 +23,13 @@
 
     <body>
 
-        <!--<div class="container-fluid pt-5"> container-fluid makes 100% width on all devices-->
-
         <header class="container-fluid sticky-top">
                 <div class="row no-gutters">
                     <div class="col-4 text-right col-md-1 text-md-right mt-md-1 mb-md-1">
-                        <!--<div class="logopic">-->
                             <img src="images/icon.png" alt="icon" class="img-fluid"> 
-                        <!--</div>-->
                     </div>
                     <div class="col-8 mt-2 col-md-4 text-md-left mt-md-3">
-                        <!--<div class="logo">-->
                             <h1 class="logo-text"><span>FLAG</span>project</h1>
-                        <!--</div>-->
                     </div> 
                
                     <div class="col-md-7">
@@ -48,12 +42,9 @@
                 </div>
             </header>
 
-            <!-- Marcação de consulta aqui --> 
             <section id="formularioregister">
-                <!-- formulario para fazer login -->
                 <div class="col-md-12 text-center mt-5 mb-5">
-                            <!-- formulario para criar uma conta -->
-                        <!-- desde aqui  -->
+                            
                         <h1>Create an account</h1>
 <?php
     if(isset($message)) { echo '<p role="alert">' .$message. '</p>'; }
@@ -128,7 +119,7 @@
                                 </div>
 
                                 <div>
-                                <img src="/controller/captcha.php" alt="">
+                                <img src="/captcha.php" alt="">
                                 </div>
 
                                 <div>
@@ -141,10 +132,10 @@
                                 
                             </form>
                         </div>
-                            <!-- até aqui -->
+                            
                 </div>            
-                        <!-- END formulario para criar uma conta -->
-            </section> <!-- END FORMULARIOS -->
+                        
+            </section>
 
             <section id="prefooter">
                 <div class="container">
@@ -179,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-            </section> <!-- END PREFOOTER -->
+            </section> 
 
             <footer>
             <div class="container">
@@ -206,8 +197,6 @@
                 </div>
             </div>
             </footer>
-
-        <!--</div>-->
 
         <!-- JQuery -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 

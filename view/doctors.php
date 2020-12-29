@@ -24,19 +24,13 @@
 
     <body>
 
-        <!--<div class="container-fluid pt-5"> container-fluid makes 100% width on all devices-->
-
             <header class="container-fluid sticky-top">
                 <div class="row no-gutters">
                     <div class="col-4 text-right col-md-1 text-md-right mt-md-1 mb-1 mb-md-1">
-                        <!--<div class="logopic">-->
                             <img src="images/icon.png" alt="icon" class="img-fluid"> 
-                        <!--</div>-->
                     </div>
                     <div class="col-8 mt-2 col-md-4 text-md-left mt-md-3">
-                        <!--<div class="logo">-->
                             <h1 class="logo-text"><span>FLAG</span>project</h1>
-                        <!--</div>-->
                     </div> 
                
                     <div class="col-md-7">
@@ -49,12 +43,10 @@
                 </div>
             </header>
 
-            <!-- Profiles List --> 
             <section id="Doctorspage">
                 <div class="col-md-12 text-center text-md-center mt-4 mb-4">
                     <div class="container">
                     <h1>Doctors</h1>
-
                     <ul>
 <?php
     foreach($doctors as $doctor) {
@@ -68,7 +60,7 @@
                     </ul>
                     </div>                   
                 </div>               
-            </section> <!-- END PROFILES -->
+            </section> 
 
             <section id="prefooter">
                 <div class="container">
@@ -103,7 +95,7 @@
                         </div>
                     </div>
                 </div>
-            </section> <!-- END PREFOOTER -->
+            </section> 
 
             <footer>
             <div class="container">
@@ -130,8 +122,6 @@
                 </div>
             </div>
             </footer>
-
-        <!--</div>-->
 
         <!-- JQuery -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 

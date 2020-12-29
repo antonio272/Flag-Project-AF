@@ -57,7 +57,7 @@
                     <h1>Doctor Profile</h1>
                     <div class="row"> 
                           
-                        <!--Doctor -->
+                        
                         <div class="col-md-4 text-center text-md-right mt-3 mt-md-5">
                             <div class="doct">
                                 <img src="<?=BASE_PATH?>images/<?php echo $doctor[0]["image"]; ?>" alt="" class="perfil-image">
@@ -92,11 +92,10 @@
                             </div> 
                             <hr>                          
                         </div>
-                        <!--End Doctor -->
                     </div>
                     </div>
                 </div>               
-            </section> <!-- END PROFILES -->
+            </section> 
 
             <section id="prefooter">
                 <div class="container">
@@ -131,7 +130,7 @@
                         </div>
                     </div>
                 </div>
-            </section> <!-- END PREFOOTER -->
+            </section> 
 
             <footer>
             <div class="container">
@@ -158,8 +157,6 @@
                 </div>
             </div>
             </footer>
-
-        <!--</div>-->
 
         <!-- JQuery -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 

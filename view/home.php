@@ -48,53 +48,49 @@
             <div id="hero">
                 <div class="row">
                     <div class="col-sd-12 col-md-8 mt-4 mb-4 mb-md-5">
-                        <!-- Post Slider -->
+                       
                             <div class="post-slider">
 
                                 <div class="one-time">
 
                                     <div class="post">
                                         <div class="post-info">
-                                        <!--<h4>Consultas</h4>-->
                                         <p>Make an appointment with your doctor.</p>
                                         </div>
                                     </div>
 
                                     <div class="post2">
                                         <div class="post-info">
-                                        <!--<h4>Consultas</h4>-->
                                         <p>Telephone triage for adults and children.</p>
                                         
                                         </div>
                                     </div>
                                     <div class="post3">
                                         <div class="post-info">
-                                        <!--<h4>Consultas</h4>-->
                                         <p>Advanced Digital Healthcare.</p>
                                         
                                         </div>
                                     </div>
+                                    
                                 </div>
-
                             </div>
-                            <!-- // Post Slider -->
+                            
                     </div>
                     <div class="col-md-4 d-flex align-items-center mb-4">
                         <div class="content text-center text-md-left">
                             <h1>BOOK AN APPOINTMENT HERE</h1>
                             <p class="mb-4">Use this area to make requests for appointments, quickly and conveniently.
                                 Follow the steps below and select the service you want to book.</p>
-                            <!-- <a href="#" class="btn-pink">Marcar agora</a> -->
                             <button type="submit" id="newPostiniBtn" class="btn-pink" name="viewform">BOOK</button>
                         </div>
                     </div>
                 </div>
-            </div><!-- END HERO -->
+            </div>
 
             <!-- Marcação de consulta aqui --> 
             <section id="formulario" style="display: none">
                 <div class="container">
-                    <div class="row"> <!-- row mt-5 -->
+                    <div class="row"> 
                         <div class="col-md-12 text-center mt-4 mb-md-0">
                             <h2>APPOINTMENT DETAILS</h2>
                             <?php
@@ -111,7 +107,7 @@
                             <main>
                                 <form id="Form" method="post" action="<?=BASE_PATH?>booking/">
                                     <select id="specialties" name="specialty_id" aria-label="Utilizador" required>
-                                    <option value="">-- Eelect a Specialty --</option>
+                                    <option value="">-- Select a Specialty --</option>
                                     <?php
                                     
                                     foreach($specialties as $specialty) {
@@ -124,10 +120,8 @@
                                 </form>
                             </main>
                         </div>
-                   
-                    
-                </div><!-- END FORMULARIOS -->
-            </section> <!-- END FORMULARIOS -->
+                </div>
+            </section> 
 
             <section id="prefooter">
                 <div class="container">
@@ -162,7 +156,7 @@
                         </div>
                     </div>
                 </div>
-            </section> <!-- END PREFOOTER -->
+            </section>
 
             <footer>
             <div class="container">
@@ -189,8 +183,6 @@
                 </div>
             </div>
             </footer>
-
-        <!--</div>-->
 
         <!-- JQuery -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 

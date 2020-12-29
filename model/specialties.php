@@ -32,7 +32,6 @@ class Specialties extends Base
         return $query->fetch( PDO::FETCH_ASSOC );
 
     }
-    
 
 
 }

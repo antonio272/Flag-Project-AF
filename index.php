@@ -21,7 +21,6 @@ $controllers = [
     
 ];
 
-/* default */
 $controller = "booking";
 
 if( !empty($url_parts[1]) ) {
@@ -37,13 +36,6 @@ if( !empty($url_parts[1]) ) {
 if( isset($url_parts[2]) ) {
     $action = $url_parts[2];
 }
-
-$appointment_count = 0;
-if(isset($_SESSION["appointment"])) {
-    $appointment_count = count($_SESSION["appointment"]);
-}
-
-
 
 require("controller/" .$controller. ".php");
 

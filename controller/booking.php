@@ -1,6 +1,5 @@
 <?php
  
-
 if( isset($_POST['doctor_id']) && 
     isset($_POST['specialty_id']) &&
     isset($_POST['datehour'])
@@ -31,7 +30,7 @@ if( isset($_POST['doctor_id']) &&
         $specialty_name = $specialty["name"];
     
  
-        $_SESSION["appointment"] [] = [
+        $_SESSION["appointment"] [0] = [
             "specialty_id" => $specialty_id,
             "specialty_name" => $specialty_name,
             "doctor_id" => $doctor_id,
@@ -42,7 +41,9 @@ if( isset($_POST['doctor_id']) &&
     require("view/appointmentresume.php");
 
 
-}else {require("model/specialties.php");
+}else {
+    
+    require("model/specialties.php");
 
 $modelSpecialties = new Specialties;
 

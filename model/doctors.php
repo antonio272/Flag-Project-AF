@@ -46,6 +46,5 @@ class Doctors extends Base
 
         return $query->fetchAll( PDO::FETCH_ASSOC );
     }
-
     
 }

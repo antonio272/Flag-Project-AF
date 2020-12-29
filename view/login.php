@@ -23,19 +23,13 @@
 
     <body>
 
-        <!--<div class="container-fluid pt-5"> container-fluid makes 100% width on all devices-->
-
             <header class="container-fluid sticky-top">
                 <div class="row no-gutters">
                     <div class="col-4 text-right col-md-1 text-md-right mt-md-1 mb-md-1">
-                        <!--<div class="logopic">-->
                             <img src="images/icon.png" alt="icon" class="img-fluid"> 
-                        <!--</div>-->
                     </div>
                     <div class="col-8 mt-2 col-md-4 text-md-left mt-md-3">
-                        <!--<div class="logo">-->
                             <h1 class="logo-text"><span>FLAG</span>project</h1>
-                        <!--</div>-->
                     </div> 
                
                     <div class="col-md-7">
@@ -48,9 +42,7 @@
                 </div>
             </header>
 
-            <!-- Marcação de consulta aqui --> 
             <section id="formulariologin">
-                <!-- formulario para fazer login -->
                 <div class="col-md-12 text-center mt-5 mb-5">
                             <h1>Login</h1>
 <?php
@@ -61,7 +53,7 @@
                             <p>If you don't have an account yet,<a href="<?=BASE_PATH?>access/register"> create one here</a>.</p>
                             <div class="wrap">
      
-                            <form method="post" action="<?=BASE_PATH?>access/login"> <!-- login.php -->
+                            <form method="post" action="<?=BASE_PATH?>access/login">
                                 <div>
                                     <label>
                                         <input type="email" name="email" placeholder="Insert your email" id="" required autofocus>
@@ -77,11 +69,11 @@
                                 </div>
                             </form>
                             </div>
-                            <!-- formulario para fazer login -->
+                            
 
                 </div>
                             
-            </section> <!-- END FORMULARIOS -->
+            </section> 
 
             <section id="prefooter">
                 <div class="container">
@@ -116,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-            </section> <!-- END PREFOOTER -->
+            </section>
 
             <footer>
             <div class="container">
@@ -143,8 +135,6 @@
                 </div>
             </div>
             </footer>
-
-        <!--</div>-->
 
         <!-- JQuery -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
